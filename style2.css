@@ -89,35 +89,20 @@ p{
 .collapse{
 	margin: 0px 0px 20px 0px;
 }
-.displaynonetest{
-	display: none !important;
-}
 .link2:hover{
 	text-decoration:none !important;
 }
-.logo{
-	top:38%;
-	position:absolute;
+.modal-dialogue{
+	margin: 70px auto;
+	width:33%;
 }
-.overlay{
-	color:#000;
-	position:absolute;
-    top:19.5px;
-    left:0;
-    width:83%;
-    height:85%;
-    font-size:12px;
-	left:15px;
-	line-height:.5;
-	padding:0px 5px 10px 15px;
-	position:absolute;
-	text-decoration: none;
-	text-transform:uppercase;
-	top: 19px;
+.modal-dialogue img{
+	width: 100%;
 }
-.overlay p{
-	font-size:13px;
-	font-weight:900;
+.project{
+	font-family: "Oswald", sans-serif;
+	border-top:1px solid #0F0F11;
+	padding: 7px 10px 10px 10px;
 }
 .project:hover {
 	background: rgba(0, 0, 255, .5);
@@ -125,10 +110,17 @@ p{
 	 -moz-transition: background .35s ease-in-out;
   	 -webkit-transition: background .35s ease-in-out;
 }
-.project{
-	font-family: "Oswald", sans-serif;
-	border-top:1px solid #0F0F11;
-	padding: 7px 10px 10px 10px;
+.project:hover img{
+	opacity: .3;
+	transition: opacity .35s ease-in-out;
+	 -moz-transition: opacity .35s ease-in-out;
+  	 -webkit-transition: opacity .35s ease-in-out;
+}
+.project:hover .summary{
+	opacity: 1;
+	transition: opacity .35s ease-in-out;
+	 -moz-transition: opacity .35s ease-in-out;
+  	 -webkit-transition: opacity .35s ease-in-out;
 }
 .project a{
 	margin-top:40px;
@@ -157,6 +149,9 @@ p{
 	margin-top: 10px;
 	margin-bottom:30px;
 }
+.readmore{
+	margin: 20px 0px 10px 0px;
+}
 .sidebar{
 	border-top:1px solid #0F0F11;
 	height:100%;
@@ -179,8 +174,11 @@ p{
 	color:#0000ff;
 	text-decoration: none;
 }
-.readmore{
-	margin: 20px 0px 10px 0px;
+.summary{
+	color:#fff;
+	opacity: 0;
+	top: 20px;
+	z-index: 10;
 }
 .tab{
 	font-size: 12px;
