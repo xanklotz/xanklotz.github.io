@@ -115,27 +115,20 @@ p{
 	text-transform:uppercase;
 	top: 19px;
 }
-.overlay a{
+.overlay p{
 	font-size:13px;
 	font-weight:900;
 }
-.overlay:hover a{
-	color:#0000ff;
-	transition: color .35s ease-in-out;
-	 -moz-transition: color .35s ease-in-out;
-  	 -webkit-transition: color .35s ease-in-out;
-}
-.overlay a:visited{
-	font-size:13px;
-	font-weight:900;
-	text-decoration: none;
-}
-.overlay a:active{
-	color:#0000ff;
-	text-decoration:none;
+.project:hover {
+	background: rgba(0, 0, 255, .5);
+	transition: background .35s ease-in-out;
+	 -moz-transition: background .35s ease-in-out;
+  	 -webkit-transition: background .35s ease-in-out;
 }
 .project{
+	font-family: "Oswald", sans-serif;
 	border-top:1px solid #0F0F11;
+	padding: 7px 10px 10px 10px;
 }
 .project a{
 	margin-top:40px;
@@ -154,7 +147,9 @@ p{
 	text-decoration: none;
 }
 .project h2{
-	margin-top:70px;
+	font-family:"Oswald", sans-serif;
+	margin-top:50px;
+	text-decoration: none;
 }
 .project img{
 	width:100%;
@@ -186,6 +181,9 @@ p{
 }
 .readmore{
 	margin: 20px 0px 10px 0px;
+}
+.tab{
+	font-size: 12px;
 }
 .work{
 	overflow: scroll;
