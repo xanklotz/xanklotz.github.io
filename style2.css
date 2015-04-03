@@ -128,7 +128,7 @@ p{
 	z-index:1;
 }
 .project:hover {
-	background: rgba(0, 0, 255, .5);
+	background: rgba(219, 241, 227, .5);
 	transition: background .35s ease-in-out;
 	 -moz-transition: background .35s ease-in-out;
   	 -webkit-transition: background .35s ease-in-out;
